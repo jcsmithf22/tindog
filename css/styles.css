@@ -12,6 +12,7 @@ h1 {
 	font-weight: 900;
   font-size: 3.5rem;
   line-height: 1.5;
+	color: white;
 }
 
 h2 {
@@ -131,17 +132,39 @@ p {
 	padding: 3% 2%;
 }
 
-@media (max-width: 1172px) {
+#cta {
+	background-color: #ff4c68;
+	padding: 7% 15%;
+}
 
-	.title-text {
-		text-align: center;
-	}
+.download-btn-cts {
+  margin: 5% 1.5% 1% 1.5%;
+}
+
+h1.bottom-h1 {
+	font-size: 3rem;
+}
+
+#footer {
+	text-align: center;
+	padding: 7% 15% 2% 15%;
+}
+
+.social-icons {
+	color: black;
+}
+
+.icon-spacing {
+	padding: 10px;
+}
+
+@media (max-width: 1284px) {
 
 	.title-img {
 		width: 60%;
 	}
 
-	h1 {
+	h1.title-h1 {
 	  font-size: 3rem;
 	}
 
@@ -164,7 +187,6 @@ p {
 		margin-left: 10%;
 	}
 
-
 }
 
 @media (max-width: 991px) {
@@ -173,7 +195,7 @@ p {
 		margin-left: 0;
 	}
 
-	h1 {
+	h1.title-h1 {
 		font-size: 3.5rem;
 	}
 
@@ -189,7 +211,7 @@ p {
 		margin-left: 0;
 	}
 
-	h1 {
+	h1.title-h1, h1.bottom-h1 {
 		font-size: 2.5rem;
 	}
 
